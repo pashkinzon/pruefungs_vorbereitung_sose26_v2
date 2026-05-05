@@ -357,6 +357,27 @@ main {
   padding-right: 1rem;
 }
 
+.preview-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.preview-open-btn {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.preview-open-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .close-preview {
   background: transparent;
   border: none;
@@ -385,9 +406,33 @@ main {
 }
 
 @media (max-width: 768px) {
+  header {
+    padding: 2rem 1rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 1.75rem;
+  }
+  
   .subject-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.75rem;
+  }
+  
+  .pdf-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pdf-actions {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .preview-container {
+    height: calc(100svh - 60px); /* Use svh for mobile safari url bar */
   }
 }

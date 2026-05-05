@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const previewTitle = document.getElementById('preview-title');
   const previewFrame = document.getElementById('preview-frame');
   const closePreviewBtn = document.getElementById('close-preview');
+  const previewOpenLink = document.getElementById('preview-open-link');
   
   let pdfData = [];
   let currentFilter = 'all';
@@ -150,6 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function openPreview(title, url) {
     previewTitle.textContent = title;
     previewFrame.src = url;
+    previewOpenLink.href = url;
     previewOverlay.classList.add('active');
     document.body.style.overflow = 'hidden'; // prevent background scrolling
   }

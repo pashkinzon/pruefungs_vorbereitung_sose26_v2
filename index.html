@@ -36,7 +36,12 @@
   <div class="preview-overlay" id="preview-overlay">
     <div class="preview-header">
       <div class="preview-title" id="preview-title">PDF Vorschau</div>
-      <button class="close-preview" id="close-preview" aria-label="Schließen">&times;</button>
+      <div class="preview-actions">
+        <a id="preview-open-link" class="preview-open-btn" target="_blank" aria-label="In neuem Fenster öffnen">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+        <button class="close-preview" id="close-preview" aria-label="Schließen">&times;</button>
+      </div>
     </div>
     <div class="preview-container">
       <iframe id="preview-frame" title="PDF Vorschau" src="" allowfullscreen></iframe>
