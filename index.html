@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prüfungsvorbereitung SoSe 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Prüfungsvorbereitung SoSe 2026</h1>
+    <p>PDF-Zusammenfassungen und Lernmaterialien für meine Kurse im 4. Semester.</p>
+    <a href="downloads/all-pdfs.zip" class="global-download-btn" download>
+      Alle PDFs als ZIP herunterladen
+    </a>
+  </header>
+
+  <main>
+    <div class="controls">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Nach PDFs suchen..." aria-label="Suchen">
+      </div>
+      <div class="filter-box" id="filter-container">
+        <!-- Filter buttons are injected via JS -->
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="content-container">
+      <!-- Sections are injected here by JS -->
+    </div>
+  </main>
+
+  <!-- Fullscreen Preview Overlay -->
+  <div class="preview-overlay" id="preview-overlay">
+    <div class="preview-header">
+      <div class="preview-title" id="preview-title">PDF Vorschau</div>
+      <button class="close-preview" id="close-preview" aria-label="Schließen">&times;</button>
+    </div>
+    <div class="preview-container">
+      <iframe id="preview-frame" title="PDF Vorschau" src="" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
