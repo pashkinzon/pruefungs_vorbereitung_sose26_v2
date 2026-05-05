@@ -110,6 +110,16 @@
     "subjectZip": "downloads/datenstrukturen-1.zip"
   },
   {
+    "title": "ds-vl07-linearsort",
+    "subject": "Datenstrukturen 1",
+    "subjectSlug": "datenstrukturen-1",
+    "path": "pdfs/datenstrukturen-1/ds-vl07-linearsort.pdf",
+    "size": "218.4 KB",
+    "sizeBytes": 223663,
+    "lastModified": 1777989912.232875,
+    "subjectZip": "downloads/datenstrukturen-1.zip"
+  },
+  {
     "title": "la-vl01-dualraeume",
     "subject": "Lineare Algebra 2",
     "subjectSlug": "lineare-algebra-2",
