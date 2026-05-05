@@ -50,6 +50,16 @@
     "subjectZip": "downloads/analyse-2.zip"
   },
   {
+    "title": "ds-ch6-tests",
+    "subject": "Datenstrukturen 1",
+    "subjectSlug": "datenstrukturen-1",
+    "path": "pdfs/datenstrukturen-1/ds-ch6-tests.pdf",
+    "size": "231.3 KB",
+    "sizeBytes": 236825,
+    "lastModified": 1777981790.685739,
+    "subjectZip": "downloads/datenstrukturen-1.zip"
+  },
+  {
     "title": "ds-vl05-sortieren",
     "subject": "Datenstrukturen 1",
     "subjectSlug": "datenstrukturen-1",
