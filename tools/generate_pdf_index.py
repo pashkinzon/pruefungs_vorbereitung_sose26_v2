@@ -71,8 +71,9 @@ def main():
         subject_pdfs = []
         
         if src_path.exists():
-            # Find all PDFs in the source folder
-            for pdf_file in src_path.glob("*.pdf"):
+            # Find all PDFs in the source folder and sort them by filename
+            pdf_files = sorted(src_path.glob("*.pdf"), key=lambda p: p.name)
+            for pdf_file in pdf_files:
                 orig_name = pdf_file.name
                 clean_name = sanitize_filename(orig_name)
                 title = get_readable_title(orig_name)
