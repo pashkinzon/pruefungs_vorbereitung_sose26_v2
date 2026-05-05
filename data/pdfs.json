@@ -170,6 +170,16 @@
     "subjectZip": "downloads/numerik-0.zip"
   },
   {
+    "title": "numerik-vl07-symmetrie-kondition",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-vl07-symmetrie-kondition.pdf",
+    "size": "231.0 KB",
+    "sizeBytes": 236494,
+    "lastModified": 1777982437.7527454,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
     "title": "numerik-vl02-kondition-stabilitaet",
     "subject": "Numerik 0",
     "subjectSlug": "numerik-0",
