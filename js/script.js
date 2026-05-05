@@ -8,8 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const closePreviewBtn = document.getElementById('close-preview');
   const previewOpenLink = document.getElementById('preview-open-link');
   
+  // Random Wheel Elements
+  const randomBtn = document.getElementById('random-subject-btn');
+  const randomModal = document.getElementById('random-modal');
+  const closeRandomModal = document.getElementById('close-random-modal');
+  const roulette = document.getElementById('wheel-roulette');
+  const goRandomBtn = document.getElementById('go-to-random-subject');
+  
   let pdfData = [];
   let currentFilter = 'all';
+  let selectedRandomSubject = '';
   
   // Load data
   fetch('data/pdfs.json')
@@ -161,6 +169,73 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => { previewFrame.src = ''; }, 300); // clear after animation
     document.body.style.overflow = '';
   }
+
+  // Random Subject Wheel Logic
+  randomBtn.addEventListener('click', () => {
+    const subjects = [...new Set(pdfData.map(item => item.subject))].sort();
+    if (subjects.length === 0) return;
+    
+    // Reset Modal
+    roulette.innerHTML = '';
+    goRandomBtn.style.display = 'none';
+    roulette.style.transition = 'none';
+    roulette.style.transform = 'translateY(0px)';
+    
+    // Create a long array to simulate spinning
+    const spinItems = [];
+    for (let i = 0; i < 4; i++) {
+       // shuffle array
+       const shuffled = [...subjects].sort(() => Math.random() - 0.5);
+       spinItems.push(...shuffled);
+    }
+    
+    // The final winning subject
+    const winSubject = subjects[Math.floor(Math.random() * subjects.length)];
+    spinItems.push(winSubject);
+    
+    // Append divs to roulette
+    spinItems.forEach(subj => {
+       const div = document.createElement('div');
+       div.className = 'wheel-item';
+       div.textContent = subj;
+       roulette.appendChild(div);
+    });
+    
+    randomModal.classList.add('active');
+    
+    // Trigger the animation
+    setTimeout(() => {
+       roulette.style.transition = 'transform 3.5s cubic-bezier(0.1, 0.7, 0.1, 1)';
+       const itemHeight = 80;
+       // Target the exact last element
+       const targetY = -((spinItems.length - 1) * itemHeight);
+       roulette.style.transform = `translateY(${targetY}px)`;
+       
+       // Show the 'let's go' button once animation finishes
+       setTimeout(() => {
+          selectedRandomSubject = winSubject;
+          goRandomBtn.style.display = 'block';
+       }, 3600);
+    }, 100);
+  });
+
+  closeRandomModal.addEventListener('click', () => {
+    randomModal.classList.remove('active');
+  });
+
+  goRandomBtn.addEventListener('click', () => {
+    randomModal.classList.remove('active');
+    
+    // Actually click the target filter visually
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => {
+       if (btn.dataset.subject === selectedRandomSubject) {
+          btn.click();
+       }
+    });
+    
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
   closePreviewBtn.addEventListener('click', closePreview);
   

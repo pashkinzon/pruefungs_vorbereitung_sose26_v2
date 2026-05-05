@@ -11,9 +11,14 @@
   <header>
     <h1>Prüfungsvorbereitung SoSe 2026</h1>
     <p>PDF-Zusammenfassungen und Lernmaterialien für meine Kurse im 4. Semester.</p>
-    <a href="downloads/all-pdfs.zip" class="global-download-btn" download>
-      Alle PDFs als ZIP herunterladen
-    </a>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="downloads/all-pdfs.zip" class="global-download-btn" download>
+        Alle PDFs herunterladen
+      </a>
+      <button id="random-subject-btn" class="global-download-btn" style="background: var(--accent-rose); border: none; cursor: pointer;">
+        🎲 Zufallsfach
+      </button>
+    </div>
   </header>
 
   <main>
@@ -45,6 +50,20 @@
     </div>
     <div class="preview-container">
       <iframe id="preview-frame" title="PDF Vorschau" src="" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Random Subject Wheel Modal -->
+  <div class="modal-overlay" id="random-modal">
+    <div class="modal-content">
+      <button class="close-modal" id="close-random-modal" aria-label="Schließen">&times;</button>
+      <h2 style="margin-bottom: 1rem; color: var(--text-dark);">Welches Fach heute?</h2>
+      <div class="wheel-container">
+        <div class="wheel-roulette" id="wheel-roulette">
+          <!-- Subject items injected here -->
+        </div>
+      </div>
+      <button id="go-to-random-subject" class="btn btn-primary" style="display: none; margin-top: 1.5rem; width: 100%; font-size: 1rem; padding: 0.75rem;">Los geht's!</button>
     </div>
   </div>
 
