@@ -22,6 +22,22 @@
   </header>
 
   <main>
+    <!-- Update Info Panel -->
+    <div class="update-panel" id="update-panel" style="display:none;">
+      <div class="update-panel-header">
+        <span class="update-panel-icon">🔄</span>
+        <div>
+          <div class="update-panel-title">Letztes Update</div>
+          <div class="update-panel-date" id="update-date"></div>
+        </div>
+        <button class="update-panel-toggle" id="update-panel-toggle" aria-label="Neue Vorlesungen anzeigen">&#9660;</button>
+      </div>
+      <div class="update-panel-body" id="update-panel-body" style="display:none;">
+        <div class="update-panel-subtitle">Neu hinzugefügt:</div>
+        <ul class="update-panel-list" id="update-panel-list"></ul>
+      </div>
+    </div>
+
     <div class="controls">
       <div class="search-box">
         <input type="text" id="search-input" placeholder="Nach PDFs suchen..." aria-label="Suchen">

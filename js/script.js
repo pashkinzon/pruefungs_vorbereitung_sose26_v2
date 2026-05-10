@@ -18,7 +18,40 @@ document.addEventListener('DOMContentLoaded', () => {
   let pdfData = [];
   let currentFilter = 'all';
   let selectedRandomSubject = '';
-  
+
+  // Load update metadata
+  fetch('data/update-meta.json')
+    .then(r => r.json())
+    .then(meta => {
+      const panel = document.getElementById('update-panel');
+      const dateEl = document.getElementById('update-date');
+      const list = document.getElementById('update-panel-list');
+      const toggle = document.getElementById('update-panel-toggle');
+      const body = document.getElementById('update-panel-body');
+
+      const d = new Date(meta.lastUpdated);
+      dateEl.textContent = d.toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short' });
+
+      if (meta.newSinceLastUpdate && meta.newSinceLastUpdate.length > 0) {
+        meta.newSinceLastUpdate.forEach(item => {
+          const li = document.createElement('li');
+          li.innerHTML = `${item.title} <span class="update-badge">${item.subject}</span>`;
+          list.appendChild(li);
+        });
+        toggle.style.display = 'flex';
+        toggle.addEventListener('click', () => {
+          const isOpen = body.style.display !== 'none';
+          body.style.display = isOpen ? 'none' : 'block';
+          toggle.classList.toggle('open', !isOpen);
+        });
+      } else {
+        toggle.style.display = 'none';
+      }
+
+      panel.style.display = 'block';
+    })
+    .catch(() => {});
+
   // Load data
   fetch('data/pdfs.json')
     .then(response => response.json())
