@@ -1,28 +1,68 @@
 {
-  "lastUpdated": "2026-05-10T19:24:01.126991",
+  "lastUpdated": "2026-06-01T03:18:53.123185",
   "newSinceLastUpdate": [
     {
-      "title": "analyse-vl06-topologie-kompaktheit",
+      "title": "analyse-vl08-orthogonalitaet-stetigkeit",
       "subject": "Analyse 2"
     },
     {
-      "title": "analyse-vl07-heine-borel-geometrie",
+      "title": "analyse-vl09-lineare-abbildungen-kompaktheit",
       "subject": "Analyse 2"
     },
     {
-      "title": "ds-vl06-tests",
-      "subject": "Datenstrukturen 1"
+      "title": "analyse-vl10-kompakte-mengen-gleichmaessige-stetigkeit",
+      "subject": "Analyse 2"
     },
     {
-      "title": "la-vl04-tensorprodukt-multilinear",
+      "title": "analyse-vl11-funktionenfolgen-fixpunktsatz",
+      "subject": "Analyse 2"
+    },
+    {
+      "title": "analyse-vl12-partielle-totale-ableitungen",
+      "subject": "Analyse 2"
+    },
+    {
+      "title": "analyse-vl13-kettenregel-mittelwertsatz",
+      "subject": "Analyse 2"
+    },
+    {
+      "title": "la-vl05-determinanten",
       "subject": "Lineare Algebra 2"
     },
     {
-      "title": "numerik-vl08-kondition-pivotisierung",
+      "title": "la-vl06-polynome-moduln",
+      "subject": "Lineare Algebra 2"
+    },
+    {
+      "title": "la-vl07-algebren-polynome",
+      "subject": "Lineare Algebra 2"
+    },
+    {
+      "title": "numerik-test1-guide",
       "subject": "Numerik 0"
     },
     {
-      "title": "statistik-kap4-kenngroessen",
+      "title": "numerik-vl09-cholesky-interpolation",
+      "subject": "Numerik 0"
+    },
+    {
+      "title": "numerik-vl10-stabile-interpolation",
+      "subject": "Numerik 0"
+    },
+    {
+      "title": "numerik-vl11-aitken-newton-kondition",
+      "subject": "Numerik 0"
+    },
+    {
+      "title": "numerik-vl12-lebesgue-chebychev",
+      "subject": "Numerik 0"
+    },
+    {
+      "title": "numerik-vl13-bestapproximation-splines",
+      "subject": "Numerik 0"
+    },
+    {
+      "title": "statistik-kap04-kenngroessen",
       "subject": "Statistik 0"
     }
   ]

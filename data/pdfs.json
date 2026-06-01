@@ -70,6 +70,66 @@
     "subjectZip": "downloads/analyse-2.zip"
   },
   {
+    "title": "analyse-vl08-orthogonalitaet-stetigkeit",
+    "subject": "Analyse 2",
+    "subjectSlug": "analyse-2",
+    "path": "pdfs/analyse-2/analyse-vl08-orthogonalitaet-stetigkeit.pdf",
+    "size": "359.1 KB",
+    "sizeBytes": 367759,
+    "lastModified": 1780262918.6328459,
+    "subjectZip": "downloads/analyse-2.zip"
+  },
+  {
+    "title": "analyse-vl09-lineare-abbildungen-kompaktheit",
+    "subject": "Analyse 2",
+    "subjectSlug": "analyse-2",
+    "path": "pdfs/analyse-2/analyse-vl09-lineare-abbildungen-kompaktheit.pdf",
+    "size": "287.1 KB",
+    "sizeBytes": 293946,
+    "lastModified": 1780263245.9870782,
+    "subjectZip": "downloads/analyse-2.zip"
+  },
+  {
+    "title": "analyse-vl10-kompakte-mengen-gleichmaessige-stetigkeit",
+    "subject": "Analyse 2",
+    "subjectSlug": "analyse-2",
+    "path": "pdfs/analyse-2/analyse-vl10-kompakte-mengen-gleichmaessige-stetigkeit.pdf",
+    "size": "283.0 KB",
+    "sizeBytes": 289823,
+    "lastModified": 1780263279.6370883,
+    "subjectZip": "downloads/analyse-2.zip"
+  },
+  {
+    "title": "analyse-vl11-funktionenfolgen-fixpunktsatz",
+    "subject": "Analyse 2",
+    "subjectSlug": "analyse-2",
+    "path": "pdfs/analyse-2/analyse-vl11-funktionenfolgen-fixpunktsatz.pdf",
+    "size": "282.5 KB",
+    "sizeBytes": 289264,
+    "lastModified": 1780263278.9422984,
+    "subjectZip": "downloads/analyse-2.zip"
+  },
+  {
+    "title": "analyse-vl12-partielle-totale-ableitungen",
+    "subject": "Analyse 2",
+    "subjectSlug": "analyse-2",
+    "path": "pdfs/analyse-2/analyse-vl12-partielle-totale-ableitungen.pdf",
+    "size": "292.9 KB",
+    "sizeBytes": 299920,
+    "lastModified": 1780263283.2778292,
+    "subjectZip": "downloads/analyse-2.zip"
+  },
+  {
+    "title": "analyse-vl13-kettenregel-mittelwertsatz",
+    "subject": "Analyse 2",
+    "subjectSlug": "analyse-2",
+    "path": "pdfs/analyse-2/analyse-vl13-kettenregel-mittelwertsatz.pdf",
+    "size": "269.8 KB",
+    "sizeBytes": 276242,
+    "lastModified": 1780263287.957213,
+    "subjectZip": "downloads/analyse-2.zip"
+  },
+  {
     "title": "ds-vl01-einfuehrung",
     "subject": "Datenstrukturen 1",
     "subjectSlug": "datenstrukturen-1",
@@ -180,6 +240,46 @@
     "subjectZip": "downloads/lineare-algebra-2.zip"
   },
   {
+    "title": "la-vl05-determinanten",
+    "subject": "Lineare Algebra 2",
+    "subjectSlug": "lineare-algebra-2",
+    "path": "pdfs/lineare-algebra-2/la-vl05-determinanten.pdf",
+    "size": "302.8 KB",
+    "sizeBytes": 310081,
+    "lastModified": 1780275329.814147,
+    "subjectZip": "downloads/lineare-algebra-2.zip"
+  },
+  {
+    "title": "la-vl06-polynome-moduln",
+    "subject": "Lineare Algebra 2",
+    "subjectSlug": "lineare-algebra-2",
+    "path": "pdfs/lineare-algebra-2/la-vl06-polynome-moduln.pdf",
+    "size": "275.8 KB",
+    "sizeBytes": 282379,
+    "lastModified": 1780275338.0358858,
+    "subjectZip": "downloads/lineare-algebra-2.zip"
+  },
+  {
+    "title": "la-vl07-algebren-polynome",
+    "subject": "Lineare Algebra 2",
+    "subjectSlug": "lineare-algebra-2",
+    "path": "pdfs/lineare-algebra-2/la-vl07-algebren-polynome.pdf",
+    "size": "291.6 KB",
+    "sizeBytes": 298596,
+    "lastModified": 1780275333.8941271,
+    "subjectZip": "downloads/lineare-algebra-2.zip"
+  },
+  {
+    "title": "numerik-test1-guide",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-test1-guide.pdf",
+    "size": "329.4 KB",
+    "sizeBytes": 337292,
+    "lastModified": 1778578625.940696,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
     "title": "numerik-vl01-einfuehrung-motivation",
     "subject": "Numerik 0",
     "subjectSlug": "numerik-0",
@@ -260,6 +360,56 @@
     "subjectZip": "downloads/numerik-0.zip"
   },
   {
+    "title": "numerik-vl09-cholesky-interpolation",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-vl09-cholesky-interpolation.pdf",
+    "size": "289.9 KB",
+    "sizeBytes": 296825,
+    "lastModified": 1780275727.8878741,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
+    "title": "numerik-vl10-stabile-interpolation",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-vl10-stabile-interpolation.pdf",
+    "size": "338.9 KB",
+    "sizeBytes": 347000,
+    "lastModified": 1780275731.8860612,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
+    "title": "numerik-vl11-aitken-newton-kondition",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-vl11-aitken-newton-kondition.pdf",
+    "size": "321.4 KB",
+    "sizeBytes": 329154,
+    "lastModified": 1780276200.828455,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
+    "title": "numerik-vl12-lebesgue-chebychev",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-vl12-lebesgue-chebychev.pdf",
+    "size": "333.1 KB",
+    "sizeBytes": 341057,
+    "lastModified": 1780276206.5680068,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
+    "title": "numerik-vl13-bestapproximation-splines",
+    "subject": "Numerik 0",
+    "subjectSlug": "numerik-0",
+    "path": "pdfs/numerik-0/numerik-vl13-bestapproximation-splines.pdf",
+    "size": "372.1 KB",
+    "sizeBytes": 381030,
+    "lastModified": 1780276209.860514,
+    "subjectZip": "downloads/numerik-0.zip"
+  },
+  {
     "title": "statistik-kap01-einfuehrung",
     "subject": "Statistik 0",
     "subjectSlug": "statistik-0",
@@ -290,10 +440,10 @@
     "subjectZip": "downloads/statistik-0.zip"
   },
   {
-    "title": "statistik-kap4-kenngroessen",
+    "title": "statistik-kap04-kenngroessen",
     "subject": "Statistik 0",
     "subjectSlug": "statistik-0",
-    "path": "pdfs/statistik-0/statistik-kap4-kenngroessen.pdf",
+    "path": "pdfs/statistik-0/statistik-kap04-kenngroessen.pdf",
     "size": "253.5 KB",
     "sizeBytes": 259587,
     "lastModified": 1778433580.2617538,
