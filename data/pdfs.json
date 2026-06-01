@@ -130,6 +130,56 @@
     "subjectZip": "downloads/analyse-2.zip"
   },
   {
+    "title": "Analysis_2__Übungsblatt_01_korrekturen",
+    "subject": "Analyse Korrekturen",
+    "subjectSlug": "analyse-korrekturen",
+    "path": "pdfs/analyse-korrekturen/Analysis_2__Ubungsblatt_01_korrekturen.pdf",
+    "size": "2.9 MB",
+    "sizeBytes": 3051479,
+    "lastModified": 1780309494.5203998,
+    "subjectZip": "downloads/analyse-korrekturen.zip"
+  },
+  {
+    "title": "Analysis_2__Übungsblatt_02_korrekturen",
+    "subject": "Analyse Korrekturen",
+    "subjectSlug": "analyse-korrekturen",
+    "path": "pdfs/analyse-korrekturen/Analysis_2__Ubungsblatt_02_korrekturen.pdf",
+    "size": "5.9 MB",
+    "sizeBytes": 6200418,
+    "lastModified": 1780309497.6015213,
+    "subjectZip": "downloads/analyse-korrekturen.zip"
+  },
+  {
+    "title": "Analysis_2__Übungsblatt_03_korrekturen",
+    "subject": "Analyse Korrekturen",
+    "subjectSlug": "analyse-korrekturen",
+    "path": "pdfs/analyse-korrekturen/Analysis_2__Ubungsblatt_03_korrekturen.pdf",
+    "size": "4.7 MB",
+    "sizeBytes": 4915136,
+    "lastModified": 1780309501.9042628,
+    "subjectZip": "downloads/analyse-korrekturen.zip"
+  },
+  {
+    "title": "Analysis_2__Übungsblatt_04_korrekturen",
+    "subject": "Analyse Korrekturen",
+    "subjectSlug": "analyse-korrekturen",
+    "path": "pdfs/analyse-korrekturen/Analysis_2__Ubungsblatt_04_korrekturen.pdf",
+    "size": "3.7 MB",
+    "sizeBytes": 3863978,
+    "lastModified": 1780309505.7383513,
+    "subjectZip": "downloads/analyse-korrekturen.zip"
+  },
+  {
+    "title": "Analysis_2__Übungsblatt_05_korrekturen",
+    "subject": "Analyse Korrekturen",
+    "subjectSlug": "analyse-korrekturen",
+    "path": "pdfs/analyse-korrekturen/Analysis_2__Ubungsblatt_05_korrekturen.pdf",
+    "size": "1.0 MB",
+    "sizeBytes": 1057078,
+    "lastModified": 1780309509.017066,
+    "subjectZip": "downloads/analyse-korrekturen.zip"
+  },
+  {
     "title": "ds-vl01-einfuehrung",
     "subject": "Datenstrukturen 1",
     "subjectSlug": "datenstrukturen-1",
@@ -268,6 +318,66 @@
     "sizeBytes": 298596,
     "lastModified": 1780275333.8941271,
     "subjectZip": "downloads/lineare-algebra-2.zip"
+  },
+  {
+    "title": "homework-II-01-korrekturen",
+    "subject": "Lineare Algebra Korrekturen",
+    "subjectSlug": "lineare-algebra-korrekturen",
+    "path": "pdfs/lineare-algebra-korrekturen/homework-II-01-korrekturen.pdf",
+    "size": "3.4 MB",
+    "sizeBytes": 3558421,
+    "lastModified": 1780309268.153572,
+    "subjectZip": "downloads/lineare-algebra-korrekturen.zip"
+  },
+  {
+    "title": "homework-II-02-korrekturen",
+    "subject": "Lineare Algebra Korrekturen",
+    "subjectSlug": "lineare-algebra-korrekturen",
+    "path": "pdfs/lineare-algebra-korrekturen/homework-II-02-korrekturen.pdf",
+    "size": "4.0 MB",
+    "sizeBytes": 4179473,
+    "lastModified": 1780309271.7876637,
+    "subjectZip": "downloads/lineare-algebra-korrekturen.zip"
+  },
+  {
+    "title": "homework-II-03-korrekturen",
+    "subject": "Lineare Algebra Korrekturen",
+    "subjectSlug": "lineare-algebra-korrekturen",
+    "path": "pdfs/lineare-algebra-korrekturen/homework-II-03-korrekturen.pdf",
+    "size": "4.0 MB",
+    "sizeBytes": 4218439,
+    "lastModified": 1780309275.2099075,
+    "subjectZip": "downloads/lineare-algebra-korrekturen.zip"
+  },
+  {
+    "title": "homework-II-04-korrekturen",
+    "subject": "Lineare Algebra Korrekturen",
+    "subjectSlug": "lineare-algebra-korrekturen",
+    "path": "pdfs/lineare-algebra-korrekturen/homework-II-04-korrekturen.pdf",
+    "size": "3.9 MB",
+    "sizeBytes": 4112796,
+    "lastModified": 1780309278.7368617,
+    "subjectZip": "downloads/lineare-algebra-korrekturen.zip"
+  },
+  {
+    "title": "homework-II-05-korrekturen",
+    "subject": "Lineare Algebra Korrekturen",
+    "subjectSlug": "lineare-algebra-korrekturen",
+    "path": "pdfs/lineare-algebra-korrekturen/homework-II-05-korrekturen.pdf",
+    "size": "2.2 MB",
+    "sizeBytes": 2350315,
+    "lastModified": 1780309281.823194,
+    "subjectZip": "downloads/lineare-algebra-korrekturen.zip"
+  },
+  {
+    "title": "homework-II-06-korrekturen",
+    "subject": "Lineare Algebra Korrekturen",
+    "subjectSlug": "lineare-algebra-korrekturen",
+    "path": "pdfs/lineare-algebra-korrekturen/homework-II-06-korrekturen.pdf",
+    "size": "1.4 MB",
+    "sizeBytes": 1487227,
+    "lastModified": 1780309285.4259565,
+    "subjectZip": "downloads/lineare-algebra-korrekturen.zip"
   },
   {
     "title": "numerik-test1-guide",

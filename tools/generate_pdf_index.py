@@ -15,8 +15,10 @@ DATA_DIR = BASE_DIR / "data"
 
 SUBJECT_MAP = {
     "01.02 Analyse 2 Prüfungsvorbereitung PDFs": {"slug": "analyse-2", "name": "Analyse 2"},
+    "01.01 Analyse Hausaufgaben/Analyse Korrekturen": {"slug": "analyse-korrekturen", "name": "Analyse Korrekturen"},
     "02.02 Datenstrukturen 1 Prüfungsvorbereitung PDFs": {"slug": "datenstrukturen-1", "name": "Datenstrukturen 1"},
     "03.02 Lineare Algebra 2 Prüfungsvorbereitung PDFs": {"slug": "lineare-algebra-2", "name": "Lineare Algebra 2"},
+    "03.01 Lineare Algebra Hausaufgaben/Lineare Algebra Korrekturen": {"slug": "lineare-algebra-korrekturen", "name": "Lineare Algebra Korrekturen"},
     "04.02 Numerik 0 Prüfungsvorbereitung PDFs": {"slug": "numerik-0", "name": "Numerik 0"},
     "05.02 Statistik 0 Prüfungsvorbereitung PDFs": {"slug": "statistik-0", "name": "Statistik 0"},
     "05.01 Statistik Hausaufgaben/Statistik Korrekturen": {"slug": "statistik-korrekturen", "name": "Statistik Korrekturen"}
