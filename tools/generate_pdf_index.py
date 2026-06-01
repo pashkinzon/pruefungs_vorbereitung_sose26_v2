@@ -18,7 +18,8 @@ SUBJECT_MAP = {
     "02.02 Datenstrukturen 1 Prüfungsvorbereitung PDFs": {"slug": "datenstrukturen-1", "name": "Datenstrukturen 1"},
     "03.02 Lineare Algebra 2 Prüfungsvorbereitung PDFs": {"slug": "lineare-algebra-2", "name": "Lineare Algebra 2"},
     "04.02 Numerik 0 Prüfungsvorbereitung PDFs": {"slug": "numerik-0", "name": "Numerik 0"},
-    "05.02 Statistik 0 Prüfungsvorbereitung PDFs": {"slug": "statistik-0", "name": "Statistik 0"}
+    "05.02 Statistik 0 Prüfungsvorbereitung PDFs": {"slug": "statistik-0", "name": "Statistik 0"},
+    "05.01 Statistik Hausaufgaben/Statistik Korrekturen": {"slug": "statistik-korrekturen", "name": "Statistik Korrekturen"}
 }
 
 def sanitize_filename(filename):

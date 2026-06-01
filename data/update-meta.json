@@ -1,69 +1,21 @@
 {
-  "lastUpdated": "2026-06-01T03:18:53.123185",
+  "lastUpdated": "2026-06-01T12:19:28.835907",
   "newSinceLastUpdate": [
     {
-      "title": "analyse-vl08-orthogonalitaet-stetigkeit",
-      "subject": "Analyse 2"
+      "title": "EWTS_Blatt_2-polishchuk-ryzhkova",
+      "subject": "Statistik Korrekturen"
     },
     {
-      "title": "analyse-vl09-lineare-abbildungen-kompaktheit",
-      "subject": "Analyse 2"
+      "title": "EWTS_Blatt_3-polishchuk-ryzhkova",
+      "subject": "Statistik Korrekturen"
     },
     {
-      "title": "analyse-vl10-kompakte-mengen-gleichmaessige-stetigkeit",
-      "subject": "Analyse 2"
+      "title": "EWTS_Blatt_4-polishchuk-ryzhkova",
+      "subject": "Statistik Korrekturen"
     },
     {
-      "title": "analyse-vl11-funktionenfolgen-fixpunktsatz",
-      "subject": "Analyse 2"
-    },
-    {
-      "title": "analyse-vl12-partielle-totale-ableitungen",
-      "subject": "Analyse 2"
-    },
-    {
-      "title": "analyse-vl13-kettenregel-mittelwertsatz",
-      "subject": "Analyse 2"
-    },
-    {
-      "title": "la-vl05-determinanten",
-      "subject": "Lineare Algebra 2"
-    },
-    {
-      "title": "la-vl06-polynome-moduln",
-      "subject": "Lineare Algebra 2"
-    },
-    {
-      "title": "la-vl07-algebren-polynome",
-      "subject": "Lineare Algebra 2"
-    },
-    {
-      "title": "numerik-test1-guide",
-      "subject": "Numerik 0"
-    },
-    {
-      "title": "numerik-vl09-cholesky-interpolation",
-      "subject": "Numerik 0"
-    },
-    {
-      "title": "numerik-vl10-stabile-interpolation",
-      "subject": "Numerik 0"
-    },
-    {
-      "title": "numerik-vl11-aitken-newton-kondition",
-      "subject": "Numerik 0"
-    },
-    {
-      "title": "numerik-vl12-lebesgue-chebychev",
-      "subject": "Numerik 0"
-    },
-    {
-      "title": "numerik-vl13-bestapproximation-splines",
-      "subject": "Numerik 0"
-    },
-    {
-      "title": "statistik-kap04-kenngroessen",
-      "subject": "Statistik 0"
+      "title": "EWTS_Blatt_5-polishchuk-ryzhkova",
+      "subject": "Statistik Korrekturen"
     }
   ]
 }

@@ -448,5 +448,45 @@
     "sizeBytes": 259587,
     "lastModified": 1778433580.2617538,
     "subjectZip": "downloads/statistik-0.zip"
+  },
+  {
+    "title": "EWTS_Blatt_2-polishchuk-ryzhkova",
+    "subject": "Statistik Korrekturen",
+    "subjectSlug": "statistik-korrekturen",
+    "path": "pdfs/statistik-korrekturen/EWTS_Blatt_2-polishchuk-ryzhkova.pdf",
+    "size": "5.0 MB",
+    "sizeBytes": 5216092,
+    "lastModified": 1780308553.9999697,
+    "subjectZip": "downloads/statistik-korrekturen.zip"
+  },
+  {
+    "title": "EWTS_Blatt_3-polishchuk-ryzhkova",
+    "subject": "Statistik Korrekturen",
+    "subjectSlug": "statistik-korrekturen",
+    "path": "pdfs/statistik-korrekturen/EWTS_Blatt_3-polishchuk-ryzhkova.pdf",
+    "size": "4.0 MB",
+    "sizeBytes": 4221983,
+    "lastModified": 1780308973.8235404,
+    "subjectZip": "downloads/statistik-korrekturen.zip"
+  },
+  {
+    "title": "EWTS_Blatt_4-polishchuk-ryzhkova",
+    "subject": "Statistik Korrekturen",
+    "subjectSlug": "statistik-korrekturen",
+    "path": "pdfs/statistik-korrekturen/EWTS_Blatt_4-polishchuk-ryzhkova.pdf",
+    "size": "4.8 MB",
+    "sizeBytes": 4989646,
+    "lastModified": 1780308902.893508,
+    "subjectZip": "downloads/statistik-korrekturen.zip"
+  },
+  {
+    "title": "EWTS_Blatt_5-polishchuk-ryzhkova",
+    "subject": "Statistik Korrekturen",
+    "subjectSlug": "statistik-korrekturen",
+    "path": "pdfs/statistik-korrekturen/EWTS_Blatt_5-polishchuk-ryzhkova.pdf",
+    "size": "2.8 MB",
+    "sizeBytes": 2976473,
+    "lastModified": 1780308581.5301068,
+    "subjectZip": "downloads/statistik-korrekturen.zip"
   }
 ]
